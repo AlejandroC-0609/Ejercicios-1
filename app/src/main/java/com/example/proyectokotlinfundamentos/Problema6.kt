@@ -12,6 +12,7 @@ fun main() {
 // Función que debe desarrollar la lógica para la solución del problema
 fun problema6() {
     // Desarrolle aquí la lógica
+    println("Dame un número entero:")
     val numero = readln().toInt()
     val unidad = numero % 10
     val decena = (numero/10) % 10
